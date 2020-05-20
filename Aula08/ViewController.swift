@@ -15,6 +15,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func showTelesena(_ sender: UIButton) {
+//        if let teleSenaViewController = storyboard?.instantiateViewController(withIdentifier: "Telesena") {
+//            present(teleSenaViewController, animated: true, completion: nil)
+//        }
+        
+        
+        let yellowViewController = YellowViewController(nibName: nil, bundle: nil)
+        present(yellowViewController, animated: true, completion: nil)
+    }
+    
 
 }
 
